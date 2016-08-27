@@ -1,0 +1,122 @@
+.am{
+  background-color: red;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+body{
+padding-top: 70px;
+height: 2000px;
+}
+/******* Start Overriding Bootstrap ********/
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus{
+color: white;
+background-color: #E41B17;
+
+  }
+  .navbar-inverse .navbar-nav > li > a{
+
+    color: #D0D0D0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+  }
+
+  /*Site Title*/
+  .navbar-inverse .navbar-brand{
+    color:#BBB;
+    font-size:30px;
+    line-height:40px;
+  }
+
+    /*Dropdown Menu*/
+    .dropdown-menu
+    {
+      background-color: #333;
+      border-top: 3px solid #E41B17;
+      width: 200px;
+
+    }
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus{
+     padding-left: 30px;
+     color: white;
+     background-color: #E41B17;
+   }
+   .dropdown-menu > li > a
+   {
+     -webkit-transition:padding 0.5s ease;
+     -moz-transition:padding 0.5s ease;
+     -o-transition:padding 0.5s ease;
+     transition:padding 0.5s ease;
+     padding: 6px 20px;
+     color: white;
+   }
+   .dropdown-menu .divider
+   {
+background-color:#f00;
+
+   }
+   .navbar-right .dropdown-menu{
+        left:0;
+        right:auto;
+
+   }
+   /*Navbar Toggle*/
+   .navbar-toggle{
+
+     margin-top: 18px;
+   }
+   /*Carousel*/
+   .carousel-caption{
+    bottom:265px;
+    background: rgba(3,3,3,0.4);
+    padding-right: 20px;
+    padding-left: 20px;
+
+   }
+   .carousel-indicators{
+
+     bottom: 0px;
+   }
+   .carousel-indicators li{
+height: 15px;
+width: 15px;
+border: 1px solid #EEE;
+
+   }
+   .carousel-indicators .active{
+background-color: #E41B17;
+height: 17px;
+width: 17px;
+
+   }
+   /******* End Overriding Bootstrap ********/
+   /**Start Section About**/
+.about{
+padding-top: 60px;
+padding-bottom: 60px;
+
+}
+.about .lead{
+color: #888;
+font-size: 25px;
+margin-top: 15px;
+
+}
+.about h1{
+font-weight: bold;
+
+}
+
+
+
+   /**End Section About**/
+   /**Start Section Features**/
+   .features{
+     background: #EEE;
+     padding-top: 50px;
+     padding-bottom: 50px;
+   }
+   /**End Section Features**/
