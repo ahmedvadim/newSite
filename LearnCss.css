@@ -245,3 +245,23 @@ margin-bottom: 15px;
 }
 
    /*End Section Price*/
+   /*Start Section Our Team*/
+   .our_team{
+     background:url('images/Hallo.gif')no-repeat center center fixed;
+     min-height: 600px;
+   }
+   .our_team .team{
+     background: rgba(2,2,2,0.5);
+     min-height: 600px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     color: #FFF;
+   }
+   .our_team h1{
+margin-bottom: 40px;
+
+   }
+   .our_team .person{
+     margin-bottom: 40px;
+   }
+   /*End Section Our Team*/
