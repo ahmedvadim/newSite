@@ -329,7 +329,7 @@ margin-bottom: 40px;
 -moz-transition:all 0.5s ease-in-out;
 -o-transition:all 0.5s ease-in-out;
 transition:all 0.5s ease-in-out;
-margin-bottom: 30px;
+margin-bottom:0;
       }
       .statistics .stats:hover{
         color:#FFF;
@@ -359,5 +359,124 @@ margin-bottom: 30px;
   text-align: left;
   text-indent: 10px;
 }
+.our-skills .progress:hover{
+  -webkit-transform:scale(1.1,1.1);
+  -moz-transform:scale(1.1,1.1);
+  -o-transform:scale(1.1,1.1);
+  transform:scale(1.1,1.1);
+
+}
+.our-skills .progress{
+-webkit-transition-duration:0.7s;
+-moz-transition-duration:0.7s;
+-o-transition-duration:0.7s;
+transition-duration:0.7s;
+}
+.skills-info .btn{
+  -webkit-transition-duration:0.7s;
+  -moz-transition-duration:0.7s;
+  -o-transition-duration:0.7s;
+  transition-duration:0.7s;
+}
+.skills-info .btn:hover{
+  -webkit-transform:scale(1.1,1.1);
+  -moz-transform:scale(1.1,1.1);
+  -o-transform:scale(1.1,1.1);
+  transform:scale(1.1,1.1);
+}
 
       /*End Section Our Skills*/
+      /*Start Section Contact Us*/
+      .contact-us{
+        background:url('images/contact-us.jpg')no-repeat center center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        min-height: 300px;
+      }
+      .contact-us .fields{
+        background-color: rgba(2,2,2,0.5);
+        min-height: 300px;
+        color: #DDD;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+      .contact-us p{
+        margin-bottom: 40px;
+      }
+      .contact-us textarea{
+        height: 169px;
+      }
+      .contact-us input,.contact-us textarea{
+        background-color: rgba(0, 153, 255,0);
+        color: #FFF;
+        border-color: #0099ff;
+
+      }
+
+      /*End Section Contact Us*/
+      /*Start Section Our Clients*/
+      .our-clients{
+        background-color: #EEE;
+        padding-top:20px;
+        padding-bottom:20px;
+      }
+      .our-clients img{
+        opacity: 0.5;
+        filter: alpha(opacity=40);
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .our-clients img:hover{
+        opacity: 1;
+      }
+      /*End Section Our Clients*/
+      /*Start Section Ultimate Footer*/
+      .footer{
+        background: #333;
+        color: #AAA;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .footer a{
+color: #AAA ;
+      }
+      .footer a:hover{
+color: #FFF ;
+      }
+      .footer h3{
+color: #0895D1;
+letter-spacing: 1px;
+margin: 30px 0 20px;
+
+      }
+      .footer .three-columns{
+        overflow: hidden;
+      }
+      .footer .three-columns li{
+        width: 33.3333%;
+        float:left;
+        padding: 5px 0;
+      }
+      .footer .three-column{
+        overflow: hidden;
+      }
+      .footer .three-column li{
+        width: 50px;
+        float:left;
+        padding: 5px 0;
+        margin: 2px;
+        opacity: 0.5;
+      }
+      .footer .three-column li:hover
+      {
+        opacity: 1;
+      }
+      .footer .img-thumbnail{
+        background: rgba(0,0,0,0.2);
+        border:1px solid #444;
+        margin-bottom: 5px;
+      }
+
+      /*End Section Ultimate Footer*/
