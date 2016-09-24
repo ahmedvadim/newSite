@@ -1,39 +1,40 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-$('.gear-check').click(function(){
+    $('.gear-check').click(function () {
 
-$('.color-option').fadeToggle();
-});
-//Start Change Color
-var colorLi = $('.color-option ul li');
-colorLi
-.eq(0).css("backgroundColor","#E41B17").end()
-.eq(1).css("backgroundColor","#BC08C0").end()
-.eq(2).css("backgroundColor","#4FED28").end()
-.eq(3).css("backgroundColor","#0081FF").end()
-.eq(4).css("backgroundColor","#F0FF00");
-colorLi.click(function()
-{
-  $("link[href*='theme']").attr("href", $(this).attr("data-value"));
-});
+        $('.color-option').fadeToggle();
+    });
+    //Start Change Color
+    var colorLi = $('.color-option ul li');
+    colorLi
+        .eq(0).css("backgroundColor", "#E41B17").end()
+        .eq(1).css("backgroundColor", "#BC08C0").end()
+        .eq(2).css("backgroundColor", "#4FED28").end()
+        .eq(3).css("backgroundColor", "#0081FF").end()
+        .eq(4).css("backgroundColor", "#F0FF00");
+    colorLi.click(function () {
+        $("link[href*='theme']").attr("href", $(this).attr("data-value"));
+    });
 
-// Loading Screen
+    // Loading Screen
 
-$(window).load(function () {
+    $(window).load(function () {
 
-    "use strict";
+        "use strict";
 
-    // Loading Elements
+        // Loading Elements
 
-    $(".loading-overlay .spinner").fadeOut(2000, function () {
+        $(".loading-overlay .spinner").fadeOut(2000, function () {
 
-        // Show The Scroll
+            // Show The Scroll
 
-        $("body").css("overflow", "auto");
+            $("body").css("overflow", "auto");
 
-        $(this).parent().fadeOut(2000, function () {
+            $(this).parent().fadeOut(2000, function () {
 
-            $(this).remove();
+                $(this).remove();
+            });
+
         });
     });
 });
