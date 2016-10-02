@@ -22,7 +22,8 @@ background-color: #4FED28
  .testimonials span,
  .navbar-brand span,
   .about span,
-   .footer h3
+   .footer h3,
+   .footer .copyright span
  {
    color: #4FED28
  }

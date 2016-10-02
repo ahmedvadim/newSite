@@ -18,7 +18,8 @@ background-color: #BC08C0
  .testimonials span,
  .navbar-brand span,
   .about span,
-   .footer h3
+   .footer h3,
+   .footer .copyright span
  {
    color: #BC08C0
  }

@@ -16,25 +16,25 @@ $(document).ready(function () {
         $("link[href*='theme']").attr("href", $(this).attr("data-value"));
     });
 
-    // Loading Screen
+});
 
-    $(window).load(function () {
+// Loading Screen
 
-        "use strict";
+$(window).load(function () {
 
-        // Loading Elements
+  "use strict";
 
-        $(".loading-overlay .spinner").fadeOut(2000, function () {
+  // Loading Elements
 
-            // Show The Scroll
+  $(".loading-overlay .spinner").fadeOut(2000, function () {
 
-            $("body").css("overflow", "auto");
+      // Show The Scroll
 
-            $(this).parent().fadeOut(2000, function () {
+      $("body").css("overflow", "auto");
 
-                $(this).remove();
-            });
+      $(this).parent().fadeOut(2000, function () {
 
-        });
-    });
+          $(this).remove();
+      });
+  });
 });

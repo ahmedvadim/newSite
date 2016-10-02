@@ -22,7 +22,8 @@ background-color: #E41B17
  .testimonials span,
  .navbar-brand span,
   .about span,
-   .footer h3
+   .footer h3,
+   .footer .copyright span
  {
    color: #E41B17
  }
