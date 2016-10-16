@@ -1,0 +1,32 @@
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus,
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus,
+   .carousel-indicators .active,
+   .option-box .gear-check
+   {
+background-color: #FF8700
+  }
+  .dropdown-menu
+  {
+    border-top: 3px solid #FF8700
+  }
+ .option-box .color-option{
+   border: 4px solid #FF8700
+ }
+ .testimonials span,
+ .navbar-brand span,
+  .about span,
+   .footer h3,
+   .footer .copyright span
+ {
+   color: #FF8700
+ }
+ .testimonials .carousel-indicators li.active {
+
+   border: 3px solid #FF8700
+ }
+ .footer h3{
+color: #FF8700;
+ }

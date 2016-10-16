@@ -94,9 +94,7 @@ height: 17px;
 width: 17px;
 
    }
-   .carousel-inner > .item > img {
-     width:100%;
-   }
+   .carousel-inner > .item > img{}
    /******* End Overriding Bootstrap ********/
    /*Start Option Box*/
    .option-box{

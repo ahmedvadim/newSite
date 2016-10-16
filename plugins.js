@@ -11,7 +11,10 @@ $(document).ready(function () {
         .eq(1).css("backgroundColor", "#BC08C0").end()
         .eq(2).css("backgroundColor", "#4FED28").end()
         .eq(3).css("backgroundColor", "#0081FF").end()
-        .eq(4).css("backgroundColor", "#F0FF00");
+        .eq(4).css("backgroundColor", "#F0FF00").end()
+        .eq(5).css("backgroundColor", "#FF8700").end()
+        .eq(6).css("backgroundColor", "#7EF6FF").end()
+        .eq(7).css("backgroundColor", "#F77EFF");
     colorLi.click(function () {
         $("link[href*='theme']").attr("href", $(this).attr("data-value"));
     });
