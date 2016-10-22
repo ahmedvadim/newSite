@@ -1,5 +1,6 @@
 $(document).ready(function () {
-
+// Nice Scroll
+$("html").niceScroll();
     $('.gear-check').click(function () {
 
         $('.color-option').fadeToggle();
