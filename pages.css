@@ -1,0 +1,25 @@
+.about-us h1{
+  font-family:'Raleway', sans-serif;
+  letter-spacing:-3px;
+  font-size:62px
+}
+.about-features{
+  padding: 70px;
+}
+.about-features h3{
+font-family:'Raleway', sans-serif;
+}
+.about-ceo{
+  background-color: #EEE;
+  padding-top: 48px;
+}
+.about-ceo h1{
+ font-family:'Raleway', sans-serif;
+}
+.about-ceo .lead{
+line-height: 1.8;
+color:gray;
+}
+hr{
+  width: 750px;
+}
